@@ -2,14 +2,14 @@ TITLE geia
 INCLUDE Irvine32.inc
 
 .data
-    count BYTE "geia", 0
+    arr word 1, 2, 3, 4, 5, 6
+    test word 0
 
 .code
 
 main PROC 
-    mov eax, OFFSET count
-    call WriteString
-
+    mov test,[arr + 2]
+    call writeInt
     exit
 main ENDP
 END main
