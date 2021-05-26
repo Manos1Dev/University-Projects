@@ -1,3 +1,2 @@
 ﻿  Assembling test1.asm...
-test1.asm(9): error A2084: constant value too large
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\BuildCustomizations\masm.targets(70,5): error MSB3721: The command "ml.exe /c /nologo /Zi /Fo"Debug\test1.obj" /I "C:\Programs\Irvine32" /W3 /errorReport:prompt  /Tatest1.asm" exited with code 1.
+  Assembly University.vcxproj -> C:\Users\msxoi\Desktop\GitHub\Projects\Assembly\Debug\Assembly University.exe
