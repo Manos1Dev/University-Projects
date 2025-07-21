@@ -1,0 +1,17 @@
+int CheckInput(char message[]);
+void MessageHandler(char args[], int check);
+int ConvertNumberToClosestInt(double number);
+int WelcomeMessage();
+int Selection(int s);
+int level();
+int GenerateBoubalia(int n, int m, int level);
+int PareTisTheseisTouPinakaXwrisTaBoubalia(int **main, int n, int m);
+int ReturnInputValue(int number, char msg[]);
+void PrintTable(int **main, int n, int m, int level, int boubalia, int isWon);
+int RandomValue(int number);
+int TableCheck(int **main, int grammes, int sthles, int extra1, int extra2, int firstGrammes, int firstSthles, int t);
+void PisteueiOPaikthsOtiEinaiEdw(int **main, int grammes, int sthles);
+int DesAnEpesesPanwSeBoubali(int **mainTable, int grammes, int sthles);
+int DesAnEinaiHdhAnoixthHThesh(int **mainTable, int grammes, int sthles);
+void Wisdom(int **main, int n, int m);
+void delay(int number_of_seconds);
