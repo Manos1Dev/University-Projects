@@ -1,0 +1,2119 @@
+body {
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+.main {
+   min-height: 100vh;
+   /* background-color: red; */
+}
+
+.index-body {
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+.logo-text {
+   color:rgb(143, 63, 63);
+   min-width: max-content;
+
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.menu {
+   font-family: 'Poppins',sans-serif;
+   padding-bottom: 20px;
+   display: contents;
+   position: sticky;
+}
+
+.menu-adjust {
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+}
+
+.menu-adjust-index {
+   -webkit-text-stroke-width: thin;
+   color: rgb(0, 0, 0);
+   margin-bottom: 50px;
+   /* background-color: #3a363654; */
+   /* border-radius: 6px; */
+   /* box-shadow: 0 0 8px rgb(8 3 14); */
+   /* border: solid 2px rgb(8 3 14); */
+}
+
+.menu a {
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+   margin-left: 40px;
+}
+
+.menu a:first-child {
+   margin-left: 0;
+}
+
+.menu-login-signup {
+   display: flex;
+   justify-content: flex-end;
+   padding-right: 20px;
+}
+
+.menu-toggle {
+   display: none;
+   font-size: 24px;
+   background: none;
+   border: none;
+   color: white;
+   cursor: pointer;
+}
+
+/* --- index.html --- */
+
+.index-main-img {
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   overflow: hidden;
+}
+
+.index-main-img2 {
+   /* background-color: rgba(0, 0, 0, 0.434); */
+   display: flex;
+   position: sticky;
+   /* top: 0; */
+   /* z-index: 1000; */
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px;
+   color: white;
+}
+
+.index-container {
+   position: absolute;
+   margin: 20px;
+   width: auto;
+
+   /* min-width: 50vw;
+   min-height: 50vw; */
+   /* background-image: url('/amorgos-rooms/media/photos/main.jpg'); */
+   /* background-size: 50%; */
+   /* background-size: cover; */
+}
+
+.index-background-image {
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   z-index: -1;
+   overflow: hidden;
+   background-image: url('/amorgos-rooms/media/photos/test.jpg');
+   background-size: cover;
+   background-position: center;
+   /* opacity: 0.8; */
+}
+
+.index-background-image2 {
+   /* background-image: url('/amorgos-rooms/media/photos/test2.jpg'); */
+   background-size: cover;
+   background-position: center;
+   /* opacity: 0.8; */
+}
+
+.index-background-image3 {
+   /* background-image: url('/amorgos-rooms/media/photos/amorgos2.jpg'); */
+   background-size: cover;
+   background-position: center;
+}
+
+.index-2nd-text {
+   text-align: center;
+   background-color: #bd1515;
+   color: white;
+}
+
+.logo {
+   width: 150px;
+   height: auto;
+}
+
+.index-img-logo {
+   /* width: 10px; */
+   height: 250px;
+}
+
+
+.index-navigation {
+   overflow: hidden;
+   background-color: #333;
+}
+
+.index-navigation a {
+   float: left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+}
+ 
+.index-navigation a:hover {
+   background-color: #ddd;
+   color: black;
+}
+
+.index-headtext {
+   font-family: 'Poppins', sans-serif;
+   font-size: 40px;
+   font-weight: 500;
+   color: white;
+   text-align: center;
+   padding-top: 300px;
+}
+
+.index-info {
+   text-align: center;
+   margin-top: 80px;
+}
+
+.index-info-main {
+   text-align: -webkit-auto;
+   font-family: 'Poppins', sans-serif;
+}
+
+.index-info-text {
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+   margin-right: 850px;
+   margin-top: 50px;
+}
+
+.index-info-text2 {
+   text-align: justify;
+   /* margin-top: 320px; */
+   font-size: 20px;
+   margin-right: 500px;
+   margin-left: 700px;
+   margin-top: 450px;
+   color: navajowhite;
+}
+
+.index-info-photo {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 50px;
+}
+
+.index-rooms-info {
+   text-align: center;
+}
+
+.index-extra-info {
+   text-align: center;
+   margin-left: 350px;
+   margin-right: 350px;
+}
+
+.index-extra-info-main-div {
+   justify-content: space-around;
+   margin-left: 40px;
+}
+
+.index-info-photos {
+   max-width: 300px;
+}
+
+.index-info-photos-text1 {
+   margin-bottom: 0;
+}
+
+.index-info-photos-text2 {
+   margin-top: 0;
+}
+
+/* login.html */
+
+.login-body {
+   background-color: #493a3a6e;
+   /* @media screen and (max-width: 576px) {
+      width: 80%;
+      height: 85%;
+      padding: 12px;
+   } */
+}
+
+/* .login-main {
+   background-color: #000000;
+} */
+
+.login-logo {
+   font-family: 'Poppins', sans-serif;
+   /* width: 150px; */
+   height: auto;
+   margin: 15px;
+   margin-left: 250px;
+   color: white;
+   /* text-decoration: underline; */
+}
+
+.login-logo-home {
+   font-family: 'Poppins', sans-serif;
+   text-align: center;
+   font-size: medium;
+   /* padding-top: 0px; */
+   /* margin-right: 50px; */
+}
+
+.login-direct-links {
+   display: flex;
+   justify-content: center;
+   /* padding-top: 0px; */
+   letter-spacing: 5px;
+}
+
+.login-bar {
+   background-color: #bd1515;
+   padding: 0;
+}
+
+/* .login-bar-fix {
+   display: flex;
+} */
+
+.login-background {
+   width: 430px;
+   height: 520px;
+   position: absolute;
+   transform: translate(-50%,-50%);
+   left: 50%;
+   top: 50%;
+}
+
+.login-form {
+   height: 559px;
+   width: 415px;
+   background-color: rgb(244 244 244 / 84%);
+   position: absolute;
+   transform: translate(-50%,-50%);
+   top: 53%;
+   left: 50%;
+   border-radius: 10px;
+   backdrop-filter: blur(10px);
+   /* border: 2px solid rgb(128 87 87); */
+   box-shadow: 0 0 8px rgb(8 3 14);
+   padding: 50px 60px;
+   
+   /* @media screen and (max-width: 576px) {
+      width: 80%;
+      height: 85%;
+      padding: 12px;
+   } */
+}
+
+.login-form * {
+   font-family: 'Poppins', sans-serif;
+   color: #000000;
+   letter-spacing: 3.5px;
+   outline: none;
+   border: none;
+}
+
+.login-form-tag {
+   /* font-family: 'Poppins', sans-serif; */
+   margin-top: 65px;
+}
+
+.login-header {
+   text-decoration: underline;
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 0;
+   text-align: center;
+}
+
+.login-label{
+   display: block;
+   margin-top: 30px;
+   font-size: 16px;
+   font-weight: 510;
+   color: black;
+}
+
+.login-input {
+   display: block;
+   height: 50px;
+   width: 95%;
+   background-color: rgb(0 0 0 / 15%);
+   border-radius: 3px;
+   padding: 0 10px;
+   margin-top: 8px;
+   font-size: 14px;
+   font-weight: 300;
+   /* @media screen and (max-width: 576px) {
+      width: 94%;
+   } */
+}
+
+.login-button {
+   margin-top: 40px;
+   width: 100%;
+   background-color: #343e67;
+   color: #ffffff;
+   padding: 15px 0;
+   font-size: 17px;
+   font-weight: 600;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.login-go-back {
+   margin-top: 50px;
+   margin-left: 109px;
+   margin-bottom: 50px;
+   width: 50%;
+   background-color: #ffffff;
+   color: #ff0000;
+   padding: 12px 0;
+   font-size: 14px;
+   font-weight: 600;
+   border-radius: 5px;
+   cursor: pointer;
+   @media screen and (max-width: 576px) {
+      width: 94%;
+      margin: 50px 10px;
+   }
+}
+
+.login-copyright {
+   text-align: center;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.8);
+   color: white;
+   padding: 10px 0;
+   font-size: 12px;
+   /* text-transform: uppercase; */
+}
+
+.login-copyright-sticky {
+   position: relative;
+}
+
+.login-copyright-github {
+   color: red;
+}
+
+/* sign-up.html */
+
+.sign-up-body {
+   background-color: #493a3a6e;
+}
+
+.sign-up-background {
+   width: 430px;
+   height: 520px;
+   position: absolute;
+   transform: translate(-50%,-50%);
+   left: 50%;
+   top: 50%;
+}
+
+.sign-up-form {
+   width: 415px;
+   height: 1010px;
+   margin-top: 90px;
+   padding: 50px 60px 100px;
+   background-color: rgb(244 244 244 / 84%);
+   position: absolute;
+   transform: translate(-50%,-45%);
+   top: 59%;
+   left: 50%;
+   border-radius: 10px; 
+   backdrop-filter: blur(10px);
+   border: 2px solid rgba(255,255,255,0.1);
+   box-shadow: 0 0 40px rgba(8,7,16,0.6);
+}
+
+.sign-up-form * {
+   font-family: 'Poppins',sans-serif;
+   color: #000000;
+   letter-spacing: 3.5px;
+   outline: none;
+   border: none;
+}
+
+.sign-up-header {
+   text-decoration: underline;
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 0;
+   text-align: center;
+   margin-bottom: 35px;
+   padding-top: 8px;
+}
+
+.sign-up-label{
+   display: block;
+   margin-top: 30px;
+   font-size: 16px;
+   font-weight: 510;
+   color: black;
+}
+
+.sign-up-input {
+   display: block;
+   height: 50px;
+   width: 95%;
+   background-color: rgb(0 0 0 / 15%);
+   border-radius: 3px;
+   padding: 0 10px;
+   margin-top: 8px;
+   font-size: 14px;
+   font-weight: 300;
+}
+
+.sign-up-button {
+   margin-top: 50px;
+   width: 100%;
+   background-color: #343e67;
+   color: #ffffff;
+   padding: 15px 0;
+   font-size: 18px;
+   font-weight: 600;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+/* .sign-up-register {
+   
+} */
+
+.sign-up-go-back {
+   margin-top: 50px;
+   margin-left: 100px;
+   margin-bottom: 50px;
+   width: 50%;
+   background-color: #ffffff;
+   color: #ff0000;
+   padding: 12px 0;
+   font-size: 14px;
+   font-weight: 600;
+   border-radius: 5px;
+   cursor: pointer;
+}
+ 
+/* contact.html */
+
+.contact-body {
+   /* background-color: black; */
+   background-image: url('/amorgos-rooms/media/photos/test3.jpg');
+   background-size: cover;
+   background-position: center;
+   /* width: 100vw;
+   height: 100vh;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: -1; */
+}
+
+.contact-container {
+   font-family: 'Poppins', sans-serif;
+   letter-spacing: 0.5px;
+   width: 35%;
+   /* outline: none; */
+   border: 2px solid rgba(255,255,255,0.1);
+   max-width: 600px;
+   /* margin-left: 550px; */
+   position: relative;
+   margin: auto;
+   margin-bottom: 100px;
+   margin-top: 70px;
+   padding: 60px;
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.713);
+   border-radius: 10px;
+   color: white;
+}
+
+.contact-headtext {
+   text-align: center;
+   text-decoration: underline;
+   color: white;
+   margin-bottom: 40px;
+}
+
+.contact-form {
+   font-family: 'Poppins', sans-serif;
+   margin-top: 20px;
+}
+
+.contact-label {
+   /* font-weight: bold; */
+   color: white;
+   display: -webkit-box;
+   margin-top: 10px;
+   font-size: 18px;
+   font-weight: 400;
+}
+
+.contact-input {
+   width: 100%;
+   padding: 10px;
+   margin-top: 5px;
+   margin-bottom: 10px;
+   border: 1px solid;
+   border-radius: 5px;
+   box-sizing: border-box;
+   /* background-color: rgb(108, 98, 97); */
+}
+
+.contact-inputcheckbox {
+   margin-top: 10px;
+}
+
+.contact-inputsubmit {
+   width: 100%;
+   padding: 10px;
+   background-color: #007bff;
+   border: none;
+   color: #fff;
+   font-size: 16px;
+   cursor: pointer;
+   border-radius: 5px;
+}
+
+.contact-input::placeholder {
+   color: rgb(66, 57, 57);
+}
+
+.contact-pet {
+   display: block;
+   margin-left: 10px;
+}
+
+/* more.html */
+
+.more-body {
+   font-family: 'Poppins', sans-serif;
+   text-align: center;
+}
+
+.more-content {
+   /* max-width: 800px; */
+   margin: 0 auto;
+   padding: 5px;
+   text-align: center;
+   color: black;
+   /* background-color: rgba(128, 128, 128, 0.159); */
+}
+
+.more-background-image {
+   /* background-image: url('/amorgos-rooms/media/photos/amorgos4.jpg'); */
+   background-size: cover;
+   background-position: center;
+   /* height: 25vh; */
+   /* display: flex; */
+   justify-content: center;
+   align-items: center;
+   background-color: bisque;
+}
+
+/* .overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.4); /* Μαύρο overlay με 40% διαφάνεια */
+/* } */
+
+.more-h1 {
+   font-size: 32px;
+   font-weight: bold;
+   /* margin-bottom: 20px; */
+   /* margin-bottom: 0; */
+   text-decoration: underline;
+}
+
+.more-amorgosinfo-div {
+   display: inline-flex;
+}
+
+.more-h2 {
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 15px;
+   padding: 0;
+   margin: 0;
+   text-decoration: underline;
+}
+
+.more-p {
+   font-size: 20px;
+   line-height: 1.8;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-left: -5px;
+   text-align: center;
+   /* margin-bottom: 20px; */
+}
+
+.more-aksiotheata {
+   margin-top: 150px;
+}
+
+.more-p-info {
+   margin-left: 10px;
+}
+
+.more-p-adjust {
+   font-size: xx-large;
+}
+
+.more-p-border {
+   /* border-radius: 25px; */
+   -webkit-text-stroke-width: thin;
+   /* border: 2px solid #000000; */
+   /* text-size-adjust: 20%; */
+   text-align: center;
+   text-transform: math-auto;
+   /* margin-left: 0; */
+   /* margin-right: 0; */
+   /* padding: 0; */
+   padding-left: 80px;
+   padding-right: 80px;
+   /* margin-top: 0; */
+   /* margin-bottom: 0; */
+   /* background-color: #4034344d; */
+   color: rgba(139, 0, 0, 0.682);
+}
+
+.more-p-textadjust {
+   font-weight: bold;
+   /* margin-left: 50px; */
+   margin-top: 60px;
+   margin-right: 110px;
+   text-align: center;
+}
+
+.more-p-textadjust2 {
+   margin-left: 10px;
+}
+
+.more-img-adjust3 {
+   /* padding-top: 70px; */
+   /* padding-left: 170px; */
+}
+
+.more-img-div-adjust {
+   padding-top: 130px;
+}
+
+.more-img-div-adjust2 {
+   padding-top: 458px;
+   width: 80%;
+}
+
+.more-img-div-adjust3 {
+   width: max-content;
+}
+
+.more-a {
+   color: #007bff;
+   text-decoration: none;
+   transition: color 0.3s ease;
+}
+
+.more-a:hover {
+   color: #0056b3;
+   text-decoration: underline;
+}
+
+.more-img {
+   max-width: 80%;
+   height: auto;
+   /* margin: 20px 0; */
+}
+
+.more-img-adjust {
+   padding-top: 470px;
+   padding-left: 20px;
+   /* max-width: 100%; */
+   /* height: auto; */
+   /* margin: 20px 0; */
+}
+
+.more-video {
+   width: 80%;
+   height: auto;
+   margin: 20px 0;
+}
+
+.more-video-adjust {
+   padding-left: 80px;
+}
+
+.more-video-adjust2 {
+   width: 87%;
+}
+
+.more-amorgosinfo {
+   display: inline-grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   /* gap: 20px; */
+   /* margin: 34px 0; */
+   /* margin-top: 145px; */
+   /* background-color: #4034344d; */
+}
+
+.more-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+/* create_page.html */
+
+.create-page-body {
+   background-image: url('/amorgos-rooms/media/photos/test3.jpg');
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+   display: inline;
+   justify-content: center;
+   align-items: center;
+}
+
+.create-page {
+   font-family: 'Poppins', sans-serif;
+   letter-spacing: 0.5px;
+   width: 20%;
+   /* outline: none; */
+   border: 2px solid rgba(255,255,255,0.1);
+   max-width: 600px;
+   /* margin-left: 550px; */
+   position: relative;
+   margin: auto;
+   margin-bottom: 100px;
+   margin-top: 70px;
+   padding: 15px;
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.713);
+   border-radius: 10px;
+   color: white;
+}
+
+.create-page-header-text {
+   text-decoration: underline;
+}
+
+.create-page-form {
+   display: inline-grid;
+   width: -webkit-fill-available;
+}
+
+.create-page label {
+   display: block;
+   margin-bottom: 5px;
+}
+
+.create-page input[type="text"],
+.create-page input[type="tel"],
+.create-page input[type="email"],
+.create-page input[type="url"],
+.create-page input[type="file"],
+.create-page button {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   box-sizing: border-box;
+}
+
+.create-page button {
+   background-color: #007bff;
+   color: white;
+   cursor: pointer;
+}
+
+.create-page button:hover {
+   background-color: #0056b3;
+}
+
+.create-page-required-fields-main {
+   display: flex;
+}
+
+.create-page-required-fields-main-1 {
+   color: red;
+}
+
+.create-page-required-fields-main-2 {
+   color: white;
+}
+
+/* find-a-room.html */
+
+.find-a-room-body {
+   background-image: url('/amorgos-rooms/media/photos/amorgos4.jpg');
+   background-size: cover;
+   background-position: center;
+   background-color: #f4f4f4;
+   font-family: 'Poppins', sans-serif;
+   /* padding: 20px; */
+}
+
+.find-a-room {
+   max-width: 1248px;
+   margin: 0 auto;
+   /* background-color: #fff; */
+   padding: 10px;
+   height: 100vh;
+   margin-top: 35px;
+   border-radius: 10px;
+   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+   /* background-color: rgba(20, 18, 18, 0.85); */
+}
+
+.find-a-room-head1-main {
+   text-align: center;
+   padding-top: 90px;
+   /* background-color: black; */
+}
+
+.find-a-room-h1 {
+   font-family: 'Poppins', sans-serif;
+   text-align: center;
+   color: rgb(255 255 255 / 84%);
+   text-decoration: underline;
+   /* border: #080710; */
+}
+
+.search-container {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 20px;
+}
+
+.search-box {
+   display: flex;
+   /* margin-left: 10px; */
+   /* padding: 3.5px; */
+}
+
+.search-box input[type="text"] {
+   flex: 1;
+   /* margin-right: 10px; */
+   padding: 15px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   box-sizing: border-box;
+}
+
+.search-box button {
+   padding: 10px 20px;
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.location-dropdown select {
+   width: 100%;
+   margin-right: 10px;
+   padding: 12px;
+   /* padding-left: 50px; */
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   box-sizing: border-box;
+   cursor: pointer;
+}
+
+.room-listing {
+   display: ruby;
+   flex-wrap: wrap;
+   gap: 24px;
+}
+
+.room-listing-fix {
+   margin-left: 230px;
+}
+
+.find-a-room-example {
+   display: flex;
+   align-items: center;
+   background-color: #000000de;
+   color: white;
+   padding: 17px;
+   border-radius: 5px;
+   box-shadow: 0 0 5px rgba(0, 0, 0 / 45%);
+   margin-bottom: 20px;
+   color: #ffffffd6;
+}
+
+/* .find-a-room-example-index {
+   background-color: rgba(42, 36, 36, 0.504);
+   color: black;
+} */
+
+.find-a-room-example img {
+   width: 260px; 
+   border-radius: 10px;
+   margin-left: auto;
+}
+
+.find-a-room-example p {
+   margin: 5px 0;
+   text-align: left;
+   flex: 1;
+}
+
+.find-a-room-example a {
+   color: #007bff;
+   text-decoration: none;
+}
+
+.find-a-room-example a:hover {
+   text-decoration: underline;
+}
+
+.example-adjust {
+   /* display: flex; */
+   align-items: center;
+   gap: 705px;
+}
+
+.example-details {
+   flex-grow: 1;
+   flex-basis: calc(50% - 20px);
+}
+
+.example-adjust-name {
+   font-weight: bold;
+   color: rgba(255, 0, 0, 0.79);
+   font-size: large;
+}
+
+/* .example-adjust-photo {
+   width: 100px;
+   height: 100px;
+   border-radius: 5px;
+} */
+
+/* Hotel-Amorgos1.html */
+
+.extra1-body {
+   font-family: 'Poppins', sans-serif;
+   line-height: 1.6;
+   margin: 0;
+   padding: 0;
+   /* display: flex; */
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background-color: #f9f9f9;
+}
+
+.extra1-container {
+   text-align: center;
+   background: #fff;
+   padding: 10px;
+   /* border-radius: 8px; */
+   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+   max-width: 900px;
+   margin: 38px;
+   margin-left: 800px;
+}
+
+.extra1-h1 {
+   margin-top: 0;
+}
+
+.extra1-imgs {
+   width: 100%;
+   height: auto;
+   border-radius: 8px;
+   margin-bottom: 20px;
+}
+
+.extra1-p {
+   text-align: justify;
+   /* margin-left: 20px; */
+   /* margin-top: 0; */
+   /* padding-right: 0; */
+   /* padding-left: 50px; */
+}
+
+/* .extra1-a {
+   color: #3498db;
+   text-decoration: none;
+}
+
+.extra1-a:hover {
+   text-decoration: underline;
+} */
+
+.extra1-info1 {
+   display: inline;
+}
+
+.extra1-info2 {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.extra1-photo-text {
+   display: grid;
+}
+
+.extra1-copyright {
+   position: absolute;
+   text-align: center;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.8);
+   color: white;
+   padding: 10px 0;
+   font-size: 12px;
+}
+
+/* --- Hotel-Amorgos2.html --- */
+
+.extra2-body {
+   font-family: 'Poppins', sans-serif;
+   line-height: 1.6;
+   margin: 0;
+   padding: 0;
+   /* display: flex; */
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background-color: #f9f9f9;
+}
+
+.extra2-container {
+   text-align: center;
+   background: #fff;
+   padding: 10px;
+   /* border-radius: 8px; */
+   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+   max-width: 900px;
+   margin: 38px;
+   margin-left: 800px;
+}
+
+.extra2-h1 {
+   margin-top: 0;
+}
+
+.extra2-imgs {
+   width: 100%;
+   height: auto;
+   border-radius: 8px;
+   margin-bottom: 20px;
+}
+
+.extra2-p {
+   text-align: justify;
+   /* margin-left: 20px; */
+   /* margin-top: 0; */
+   /* padding-right: 0; */
+   /* padding-left: 50px; */
+}
+
+/* .extra2-a {
+   color: #3498db;
+   text-decoration: none;
+}
+
+.extra2-a:hover {
+   text-decoration: underline;
+} */
+
+.extra2-info1 {
+   display: inline;
+}
+
+.extra2-info2 {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.extra2-photo-text {
+   display: grid;
+}
+
+.extra2-copyright {
+   position: absolute;
+   text-align: center;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.8);
+   color: white;
+   padding: 10px 0;
+   font-size: 12px;
+}
+
+/* --- index.html --- */
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+   .index-main-img2 {
+       flex-direction: column;
+       text-align: center;
+   }
+
+   .menu {
+       flex-direction: column;
+       align-items: center;
+   }
+
+   .menu a {
+       margin: 5px 0;
+   }
+
+   .index-info-text2 {
+      margin-right: 40px;
+      margin-left: 40px;
+   }
+   .index-extra-info {
+      margin-left: 40px;
+      margin-right: 40px;
+   }
+
+   .index-info-photo {
+       flex-direction: column;
+       align-items: center;
+   }
+
+   .find-a-room-example {
+       flex: 1 1 100%;
+       max-width: 100%;
+   }
+}
+
+@media screen and (max-width: 480px) {
+   .index-info-text2 {
+      margin-right: 20px;
+      margin-left: 20px;
+   }
+
+   .index-extra-info {
+      margin-left: 20px;
+      margin-right: 20px;
+   }
+
+   .index-info-photos {
+      max-width: 100%;
+   }
+
+   .index-img-logo {
+       max-width: 200px;
+   }
+
+   .find-a-room-example {
+       flex: 1 1 100%;
+       max-width: 100%;
+   }
+}
+
+/* --- login.hthml --- */
+
+/* smartphones */
+@media only screen and (max-width: 600px) {
+   .login-form {
+      width: 75%;
+      padding: 25px;
+   }
+
+   .login-logo {
+      margin-left: 0;
+   }
+   
+   .login-header {
+      font-size: 24px;
+   }
+}
+
+/* tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+   .login-form {
+      width: 50%;
+      padding: 30px;
+   }
+}
+
+/* laptops */
+@media only screen and (min-width: 1025px) {
+   .login-form {
+      width: 415px;
+      height: 559px;
+      padding: 50px 60px;
+   }
+}
+
+/* smartphones */
+@media screen and (min-width: 62px) and (max-width: 282px) {
+   .login-form {
+     width: 70%;
+     height: 70%;
+     padding: 17px;
+     /* margin-top: 13px;
+     margin-left: -8px; */
+   }
+
+   .login-header {
+       font-size: 20px;
+   }
+
+   .login-input {
+      width: 88%;
+   }
+
+   .login-button {
+      width: 99%;
+      padding: 5px;
+      padding-bottom: 6px;
+      margin-top: 10px;
+   }
+}
+
+/* --- sign-up.html --- */
+
+/* Στυλ για smartphones */
+@media only screen and (max-width: 600px) {
+   .sign-up-form {
+      width: 55%;
+      padding-bottom: 60px;
+      margin-top: 70px;
+      /* height: auto; */
+   }
+
+   .sign-up-label {
+      font-size: 14px;
+   }
+}
+
+/* Στυλ για tablets */
+@media only screen and (min-width: 667px) and (max-width: 1024px) {
+   .sign-up-form {
+      width: 70%;
+      padding: 30px;
+      margin-top: 70px;
+      padding-bottom: 80px;
+      /* top: 45%; */
+   }
+
+   .sign-up-label {
+      font-size: 18px;
+   }
+}
+
+/* Στυλ για tablets */
+@media only screen and (min-width: 601px) and (max-width: 666px) {
+   .sign-up-form {
+      width: 70%;
+      padding: 30px;
+      margin-top: 70px;
+   }
+
+   .sign-up-label {
+      font-size: 23px;
+   }
+}
+
+/* Στυλ για laptops και μεγαλύτερες οθόνες */
+@media only screen and (min-width: 1025px) {
+   .sign-up-form {
+      width: 50%;
+      padding: 50px;
+      margin-top: 90px;
+   }
+}
+
+
+/* ------------------------ */
+
+/* smartphones */
+@media screen and (min-width: 283px) and (max-width: 576px) {
+    .login-copyright {
+       font-size: 11px;
+       margin-top: 5px;
+    }
+}
+
+@media screen and (min-width: 465px) and (max-width: 576px) {
+   .contact-container {
+      width: 60%;
+      padding: 40px;
+      /* margin-left: 85px; */
+   }
+
+   .create-page {
+      width: 50%;
+      padding: 50px;
+   }
+}
+
+@media screen and (min-width: 360px) and (max-width: 464px) {
+   .contact-container {
+      width: 70%;
+      padding: 45px;
+      /* margin-left: 80px; */
+   }
+}
+
+@media screen and (min-width: 350px) and (max-width: 359px) {
+   .contact-container {
+      width: 75%;
+      padding: 45px;
+      /* margin-left: 74px; */
+   }
+}
+
+@media screen and (min-width: 250px) and (max-width: 349px) {
+   .contact-container {
+      width: 97%;
+      padding: 45px;
+      /* margin-left: 74px; */
+   }
+}
+
+@media screen and (min-width: 200px) and (max-width: 249px) {
+   .contact-container {
+      width: 115%;
+      padding: 65px;
+      /* margin-left: 74px; */
+      font-size: x-large;
+   }
+}
+
+@media screen and (max-width: 199px) {
+   .contact-container {
+      width: 130%;
+      padding: 80px;
+      /* margin-left: 90px; */
+      font-size: xx-large;
+   }
+}
+
+/* create-page.html */
+
+/* smartphones */
+@media screen and (max-width: 576px) {
+   .create-page {
+      width: 60%;
+      padding: 30px;
+   }
+
+   .create-page-header-text {
+      font-size: 30px;
+   }
+}
+
+/* tablet */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+   .create-page {
+      width: 40%;
+   }
+}
+
+/* desktop */
+@media screen and (min-width: 769px) {
+   .create-page {
+      width: 30%;
+   }
+}
+
+/* find-a-room */
+
+/* phones */
+@media screen and (max-width: 576px) {
+   .find-a-room {
+      padding: 20px;
+      margin-top: 20px;
+      height: auto;
+   }
+   
+   .search-container {
+      flex-direction: column;
+      align-items: stretch;
+   }
+
+   .search-box,
+   .location-dropdown {
+      width: 100%;
+      margin-bottom: 10px;
+   }
+
+   .search-box button {
+      /* width: 100%; */
+   }
+
+   .room-listing {
+      flex-direction: column;
+   }
+
+   .find-a-room-example img {
+      width: 100%;
+      margin-left: 0;
+   }
+
+   .example-adjust {
+      flex-direction: column;
+      gap: 20px;
+   }
+}
+
+/* tablets */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+   .find-a-room {
+      /* padding: 40px; */
+      margin-top: 25px;
+      height: auto;
+   }
+
+   .search-container {
+      flex-direction: column;
+      align-items: stretch;
+   }
+
+   .search-box,
+   .location-dropdown {
+      width: 100%;
+      margin-bottom: 10px;
+   }
+
+   .search-box button {
+      /* width: 100%; */
+   }
+
+   .room-listing {
+      flex-direction: column;
+   }
+
+   .find-a-room-example img {
+       width: 100%;
+       margin-left: 0;
+   }
+
+   .example-adjust {
+       flex-direction: column;
+       gap: 20px;
+   }
+}
+
+/* pc */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+   .find-a-room {
+    /* padding: 50px; */
+      padding: auto;
+      margin-top: 30px;
+      margin: auto;
+   }
+
+   .search-container {
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+   .search-box,
+   .location-dropdown {
+      width: 48%;
+      margin-bottom: 0;
+   }
+
+   .search-box button {
+      width: auto;
+   }
+
+   .room-listing {
+      display: flex;
+      /* margin: auto; */
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-content: flex-end;
+      justify-content: space-around;
+   }
+
+   .find-a-room-example img {
+      width: 200px;
+   }
+
+   .example-adjust {
+      flex-direction: row;
+      gap: 20px;
+   }
+}
+
+/* pc (993px) */
+@media screen and (min-width: 993px) {
+   .find-a-room {
+      padding: 75px;
+      margin-top: 35px;
+   }
+
+   .search-container {
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+   .search-box,
+   .location-dropdown {
+      width: 48%;
+      margin-bottom: 0;
+   }
+
+   .search-box button {
+      width: auto;
+   }
+
+   .room-listing {
+      flex-direction: row-reverse;
+      display: flex;
+      margin-left: auto;
+      flex-wrap: wrap;
+      justify-content: space-around;
+   }
+
+   .find-a-room-example img {
+      width: 260px;
+   }
+
+   .example-adjust {
+      flex-direction: row;
+      gap: 705px;
+   }
+}
+
+/* -------------------------- */
+
+/* smartphones */
+@media screen and (min-width: 62px) and (max-width: 282px) {
+   .login-form {
+     width: 70%;
+     height: 70%;
+     padding: 17px;
+     /* margin-top: 13px;
+     margin-left: -8px; */
+   }
+
+   .login-header {
+       font-size: 20px;
+   }
+
+   .login-input {
+      width: 88%;
+   }
+
+   .login-button {
+      width: 99%;
+      padding: 5px;
+      padding-bottom: 6px;
+      margin-top: 10px;
+   }
+   
+   .login-logo {
+     margin-left: 0;
+     text-align: center;
+   }
+   
+   .login-direct-links {
+     justify-content: center;
+   }
+
+   .sign-up-form {
+      width: 70%;
+      height: 70%;
+      padding: 17px;
+      margin-top: 13px;
+      margin-left: -8px;
+    }
+ 
+    .sign-up-header {
+        font-size: 20px;
+    }
+ 
+    .sign-up-input {
+       width: 88%;
+    }
+ 
+    .sign-up-button {
+       width: 99%;
+       padding: 5px;
+       padding-bottom: 6px;
+       margin-top: 10px;
+    }
+    
+    .sign-up-logo {
+      margin-left: 0;
+      text-align: center;
+    }
+    
+    .sign-up-direct-links {
+      justify-content: center;
+    }
+}
+ 
+ /* tablets */
+ @media screen and (min-width: 577px) and (max-width: 1024px) {
+   .contact-container {
+      width: 45%;
+      padding: 45px;
+   }
+}
+
+@media screen and (min-width: 992px) {
+   /* .index-info-text {
+      margin-right: 0;
+      padding-right: 300px;
+   }
+   
+   .index-info-text2 {
+      margin-right: 360px;
+      margin-top: 0;
+   }
+
+   .index-info {
+      margin-left: 80px;
+      padding-bottom: 20px;
+   }
+
+   .index-info-photo {
+      display: ruby;
+   } */
+
+   .login-logo {
+      margin-left: 15px;
+      text-align: center;
+   }
+    
+   .login-direct-links {
+      justify-content: center;
+   }
+}
+
+/* tablets */
+@media screen and (min-width: 577px) and (max-width: 991px) {
+   /* .index-info-text {
+      margin-right: 0;
+      padding-right: 300px;
+   }
+   
+   .index-info-text2 {
+      margin-right: 360px;
+      margin-top: 0;
+   } */
+
+   .login-logo {
+      margin-left: 0;
+      text-align: center;
+    }
+    
+    .login-direct-links {
+      justify-content: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+   /* .index-info-text {
+      //margin-right: 0;
+      padding-right: 300px;
+   }
+   
+   .index-info-text2 {
+      margin-right: 360px;
+      //margin-top: 0;
+   } */
+}
+
+/* responsive bar */
+/* smartphones (μέγιστο πλάτος 576px) */
+@media screen and (max-width: 576px) {
+   .menu {
+      display: none;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      background-color: #333;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      z-index: 1;
+   }
+   .menu.active {
+         display: flex;
+   }
+   .menu-fix a {
+         margin: 10px;
+         display: block;
+   }
+   .menu-toggle {
+         display: block;
+   }
+}
+
+/* Tablets (πλάτος μεταξύ 577px και 768px) */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+   .menu {
+       display: none;
+       flex-direction: column;
+       align-items: flex-start;
+       width: 100%;
+       background-color: #333;
+       position: absolute;
+       top: 60px;
+       right: 0;
+       z-index: 1;
+   }
+   .menu.active {
+       display: flex;
+   }
+   .menu-fix a {
+       margin: 10px;
+       display: block;
+   }
+   .menu-toggle {
+       display: block;
+   }
+}
+
+/* pc (πλάτος μεταξύ 769px και 992px) */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+   .menu {
+       justify-content: flex-end;
+   }
+   .menu-login-signup {
+       justify-content: flex-end;
+   }
+   .menu-toggle {
+       display: none;
+   }
+}
+
+/* pc */
+@media screen and (min-width: 993px) {
+   .menu {
+       justify-content: flex-end;
+   }
+   .menu-login-signup {
+       justify-content: flex-end;
+       margin-right: 15px;
+   }
+   .menu-toggle {
+       display: none;
+   }
+}
+
+/* --- more.html --- */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+   .more-h1,
+   .more-h2 {
+     font-size: 26px;
+   }
+ 
+   .more-p,
+   .more-p-adjust,
+   .more-p-border {
+     font-size: 18px;
+   }
+ 
+   .more-p-textadjust {
+     margin-top: 30px;
+     margin-right: 0;
+   }
+ 
+   .more-img-div-adjust2 {
+     padding-top: 10px;
+   }
+
+   .more-amorgosinfo {
+      display: inline;
+   }
+
+   .more-amorgosinfo-div {
+      display: inline;
+   }
+ 
+   .more-video-adjust {
+     padding-left: 0;
+   }
+ 
+   .more-img {
+     max-width: 100%;
+   }
+ 
+   .more-video {
+     width: 100%;
+   }
+} 
+
+@media screen and (max-width: 768px) {
+   .more-content {
+     padding: 0;
+   }
+ 
+   .more-p-textadjust {
+     margin-right: 0;
+   }
+ 
+   .more-img-div-adjust2 {
+     padding-top: 10px;
+   }
+ 
+   .more-video-adjust {
+     padding-left: 0;
+   }
+ 
+   .more-h1,
+   .more-h2 {
+     font-size: 28px;
+   }
+ 
+   .more-p,
+   .more-p-adjust,
+   .more-p-border {
+     font-size: 18px;
+     padding-left: 5px;
+     padding-right: 5px;
+   }
+ 
+   .more-img {
+     max-width: 100%;
+   }
+
+   .more-amorgosinfo-div {
+      display: inline;
+   }
+ 
+   .more-video {
+     width: 40%;
+   }
+
+   .more-frame {
+      width: 100%;
+   }
+ }
+ 
+ @media screen and (max-width: 480px) {
+   .more-p-textadjust {
+     margin-top: 20px;
+     margin-right: 0;
+   }
+ 
+   .more-img-div-adjust2 {
+     padding-top: 10px;
+   }
+ 
+   .more-video-adjust {
+     padding-left: 0;
+   }
+ 
+   .more-h1,
+   .more-h2 {
+     font-size: 24px;
+   }
+ 
+   .more-p,
+   .more-p-adjust,
+   .more-p-border {
+     font-size: 16px;
+     padding-left: 5px;
+     padding-right: 5px;
+   }
+ 
+   .more-img {
+     max-width: 130%;
+   }
+ 
+   .more-video {
+     width: 100%;
+   }
+ }
+
+/* Hotel1 */
+
+/* smartphones */
+@media screen and (max-width: 480px) {
+   .extra1-container {
+     margin: 20px;
+   }
+ 
+   .extra1-h1 {
+     font-size: 24px;
+   }
+ 
+   .extra1-imgs {
+     border-radius: 0;
+   }
+ 
+   .extra1-p {
+     padding: 0 10px;
+   }
+ 
+   .extra1-info2 {
+     flex-direction: column;
+   }
+}
+ 
+ /* tablets */
+ @media screen and (max-width: 768px) {
+   .extra1-container {
+     margin: 20px auto;
+     max-width: 90%;
+   }
+
+   .extra1-copyright {
+      position: relative;
+   }
+ }
+ 
+ /* laptops */
+ @media screen and (min-width: 769px) and (max-width: 1024px) {
+   .extra1-body {
+      /* display: flex; */
+      justify-content: center;
+      align-items: center;
+   } 
+ 
+   .extra1-container {
+     margin: 20px auto;
+     max-width: 80%;
+   }
+ 
+   .extra1-h1 {
+     font-size: 36px;
+   }
+
+   .extra1-info1 {
+      margin-bottom: 20px;
+   }
+}
+
+/* hote2.html */
+
+/* smartphones */
+@media screen and (max-width: 480px) {
+   .extra2-container {
+     margin: 20px;
+   }
+ 
+   .extra2-h1 {
+     font-size: 24px;
+   }
+ 
+   .extra2-imgs {
+     border-radius: 0;
+   }
+ 
+   .extra2-p {
+     padding: 0 10px;
+   }
+ 
+   .extra2-info2 {
+     flex-direction: column;
+   }
+}
+ 
+ /* tablets */
+ @media screen and (max-width: 768px) {
+   .extra2-container {
+     margin: 20px auto;
+     max-width: 90%;
+   }
+
+   .extra2-copyright {
+      position: relative;
+   }
+ }
+ 
+ /* laptops */
+ @media screen and (min-width: 769px) and (max-width: 1024px) {
+   .extra2-body {
+      /* display: flex; */
+      justify-content: center;
+      align-items: center;
+   } 
+ 
+   .extra2-container {
+     margin: 20px auto;
+     max-width: 80%;
+   }
+ 
+   .extra2-h1 {
+     font-size: 36px;
+   }
+
+   .extra2-info1 {
+      margin-bottom: 20px;
+   }
+}
+
+/* admin.html */
+
+.admin-body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.admin-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.admin-h2 h2 {
+    text-align: center;
+    color: #333;
+}
+
+.admin-form-group {
+    margin-bottom: 15px;
+}
+
+.admin-label label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.admin-input input[type="text"],
+.admin-input input[type="tel"],
+.admin-input input[type="email"],
+.admin-input input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.admin-button button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.admin-button button:hover {
+    background-color: #218838;
+}

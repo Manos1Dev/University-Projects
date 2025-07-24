@@ -1,0 +1,74 @@
+{
+   "website": {
+      "info": {
+         "host": "0.0.0.0",
+         "port": 3000,
+         "port_env": "process.env.PORT"
+      },
+
+      "db": {
+         "postgreSQL": {
+            "user": "...",
+            "host": "...",
+            "database": "...",
+            "password": "...",
+            "port": 5432
+         }
+      },
+
+      "staticFiles": {
+         "path": "main"
+      },
+      
+      "api": {
+         "amorgos_rooms": {
+            "production": {
+               "path": "/amorgos-rooms/",
+               "index": "/index.html",
+               "style": "/amorgos_rooms/styles/style.css",
+               
+               "login": {
+                  "name": "/amorgos-rooms/login",
+                  "path": "/main/amorgos-rooms/login.html"
+               },
+
+               "sign_up": {
+                  "name": "/amorgos-rooms/sign-up",
+                  "path": "/main/amorgos-rooms/sign-up.html"
+               },
+
+               "more": {
+                  "name": "/amorgos-rooms/more",
+                  "path": "/main/amorgos-rooms/more.html"
+               },
+
+               "contact": {
+                  "name": "/amorgos-rooms/contact",
+                  "path": "/main/amorgos-rooms/contact.html"
+               },
+
+               "create_page": {
+                  "name": "/amorgos-rooms/create_page",
+                  "name_file": "/amorgos-rooms/create_page.html",
+                  "path": "/main/amorgos-rooms/create_page.html"
+               },
+
+               "find_a_room": {
+                  "name": "/amorgos-rooms/find-a-room",
+                  "path": "/main/amorgos-rooms/find-a-room.html"
+               },
+
+               "extra1": {
+                  "name": "/amorgos-rooms/Hotel-Amorgos",
+                  "path": "/main/amorgos-rooms/Hotel-Amorgos.html"
+               },
+
+               "extra2": {
+                  "name": "/amorgos-rooms/Hotel-Amorgos2",
+                  "path": "/main/amorgos-rooms/Hotel-Amorgos2.html"
+               }
+            }
+         }
+      }
+   }
+}

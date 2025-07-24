@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Admin</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+         }
+
+         .admin-container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+         }
+
+         .admin-h2 {
+            text-align: center;
+            color: #333;
+         }
+
+         .admin-form-group {
+            margin-bottom: 15px;
+         }
+
+         .admin-label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #333;
+         }
+
+         .admin-input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+         }
+
+         .admin-button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+         }
+
+         .admin-button:hover {
+            background-color: #0056b3;
+         }
+
+         #message {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 16px;
+         }
+    </style>
+</head>
+<body>
+    <div class="admin-container">
+        <h2 class="admin-h2">Add New Admin</h2>
+        <form id="add-admin-form">
+            <div class="admin-form-group">
+                <label class="admin-label" for="name">Name:</label>
+                <input class="admin-input" type="text" id="name" name="name" required>
+            </div>
+            <div class="admin-form-group">
+                <label class="admin-label" for="surname">Surname:</label>
+                <input class="admin-input" type="text" id="surname" name="surname" required>
+            </div>
+            <div class="admin-form-group">
+                <label class="admin-label" for="username">Username:</label>
+                <input class="admin-input" type="text" id="username" name="username" required>
+            </div>
+            <div class="admin-form-group">
+                <label class="admin-label" for="password">Password:</label>
+                <input class="admin-input" type="password" id="password" name="password" required>
+            </div>
+            <div class="admin-form-group">
+                <label class="admin-label" for="email">Email:</label>
+                <input class="admin-input" type="email" id="email" name="email" required>
+            </div>
+            <button class="admin-button" type="submit">Add Admin</button>
+        </form>
+        <p id="message"></p>
+    </div>
+    <!-- <script src="/js/add-admin.js"></script> -->
+     <script>
+         document.getElementById('add-admin-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const data = {
+               name: document.getElementById('name').value,
+               surname: document.getElementById('surname').value,
+               username: document.getElementById('username').value,
+               password: document.getElementById('password').value,
+               email: document.getElementById('email').value
+            };
+
+            fetch('add-admin', {
+               method: 'POST',
+               headers: {
+                  'Content-Type': 'application/json'
+               },
+               body: JSON.stringify(data),
+               credentials: 'include'
+            })
+         });
+     </script>
+</body>
+</html>

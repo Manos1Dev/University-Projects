@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles/admin.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <div class="admin-container">
+        <h2 class="admin-h2">User Management</h2>
+        <table class="admin-table">
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Business Name</th>
+                    <th>Telephone</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="user-list"></tbody>
+        </table>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            fetch('/admin/users', {
+                method: 'GET',
+                credentials: 'include'
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    const userList = $('#user-list');
+                    data.users.forEach(user => {
+                        userList.append(`
+                            <tr>
+                                <td>${user.username}</td>
+                                <td>${user.name}</td>
+                                <td>${user.surname}</td>
+                                <td>${user.business_name}</td>
+                                <td>${user.telephone}</td>
+                                <td>${user.business_email}</td>
+                                <td>
+                                    <button class="accept-btn" data-id="${user.id}" data-email="${user.business_email}">Accept</button>
+                                    <button class="reject-btn" data-id="${user.id}" data-email="${user.business_email}">Reject</button>
+                                </td>
+                            </tr>
+                        `);
+                    });
+
+                    $('.accept-btn').click(function() {
+                        const userId = $(this).data('id')
+                        const userEmail = $(this).data('email')
+                        fetch('/admin/users/accept', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify({ userId, userEmail }),
+                            credentials: 'include'
+                        })
+                        .then(response => response.json())
+                        .then(data => {
+                            if (data.success) {
+                                alert('User accepted successfully')
+                                location.reload()
+                            } else {
+                                alert('Failed to accept user')
+                            }
+                        });
+                    });
+
+                    $('.reject-btn').click(function() {
+                        const userId = $(this).data('id');
+                        const userEmail = $(this).data('email');
+                        fetch('/admin/users/reject', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify({ userId, userEmail }),
+                            credentials: 'include'
+                        })
+                        .then(response => response.json())
+                        .then(data => {
+                            if (data.success) {
+                                alert('User rejected successfully')
+                                location.reload()
+                            } else {
+                                alert('Failed to reject user')
+                            }
+                        });
+                    });
+                } else {
+                    alert('Failed to load users')
+                }
+            });
+        });
+    </script>
+</body>
+</html>

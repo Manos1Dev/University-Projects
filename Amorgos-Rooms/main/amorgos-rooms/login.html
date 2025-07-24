@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Login Form</title>
+      <link rel="stylesheet" href="/amorgos-rooms/styles/style.css">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+   </head>
+
+   <body class="login-body">
+      <div>
+            <div class="login-main">
+               <div class="index-main-img2 login-bar">
+                  <div class="login-bar-fix">
+                     <!-- <a href="#"><img src="/amorgos-rooms/media/photos/amorgos-logo.jpg" class="logo login-logo" alt="logo"></a> -->
+                     <h1 class="login-logo">Amorgos Rooms</h1>
+                  </div>
+               <!-- <div>
+                  <a href="#" onclick="changeLanguage('en')"><i class="fas fa-square"></i></a>
+                  <a href="#" onclick="changeLanguage('gr')"><i class="fas fa-square"></i></a>
+               </div> -->
+            </div>
+         </div>
+         <div class="login-form">
+            <form class="login-form-tag" id="login-form-tag-id">
+               <h3 class="login-header">Login Here</h3>
+               
+               <div class="login-direct-links">
+                  <a href="/amorgos-rooms" class="login-logo-home">Home</a>
+                  <div> / </div>
+                  <a href="login" class="login-logo-home">Login</a>
+               </div>
+               
+               <label for="username" class="login-label">Username</label>
+               <input type="text" placeholder="Give your username" class="login-input" id="login-username" required>
+               
+               <label for="password" class="login-label">Password</label>
+               <input type="password" placeholder="Give your password" class="login-input" id="login-password" required>
+               
+               <button class="login-button">Login</button>
+            </form>
+            
+            <p class="login-register">Don't have an account? <a href="/amorgos-rooms/sign-up">Sign Up</a></p>
+            
+            <!-- <button onclick="window.location.href = 'index.html'" class="login-go-back">Go back to home page</button> -->
+         </div>
+
+      </div>
+      <div class="login-copyright">
+         All rights reserved.
+         Copyright (2024) - masxidev.online (AmorgosRooms™) - <a class="login-copyright-github" href="https://www.github.com/Manos1Dev">Manos1Dev</a>
+      </div>
+
+      <script src="js/login.js"></script>
+   </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Βρες Κατάλυμα</title>
+    <link rel="stylesheet" href="/amorgos-rooms/styles/style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+    <div class="find-a-room-body">
+        <div class="index-main-img2 login-bar">
+            <div class="login-bar-fix">
+                <h1 class="login-logo">Amorgos Rooms</h1>
+                <!-- <button class="menu-toggle" onclick="toggleMenu()">☰</button> -->
+            </div>
+            <div class="menu" id="menu">
+                <div class="menu-fix">
+                    <a href="/amorgos-rooms">
+                        <span class="menu menu-adjust">Home</span>
+                    </a>
+                    <a href="more">
+                        <span class="menu menu-adjust">More Information</span>
+                    </a>
+                    <a href="find-a-room">
+                        <span class="menu menu-adjust">Find Room</span>
+                    </a>
+                    <a href="create_page">
+                        <span class="menu menu-adjust">Create Page</span>
+                    </a>
+                    <a href="contact">
+                        <span class="menu menu-adjust">Contact</span>
+                    </a>
+                </div>
+                <div class="menu-login-signup menu-fix">
+                    <a href="login">
+                        <span class="menu menu-adjust">Login</span>
+                    </a>
+                    <a href="sign-up">
+                        <span class="menu menu-adjust">Sign-Up</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="find-a-room-head1-main">
+            <h1 class="find-a-room-h1">Find the best Amorgos Rooms</h1>
+        </div> -->
+        <div class="find-a-room">
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" class="find-a-room-input" placeholder="Αναζήτηση...">
+                    <!-- <button type="submit">Search</button> -->
+                </div>
+                <div class="location-dropdown">
+                    <select name="location" class="find-a-room-location" id="find-a-room-location-id"></select>
+                </div>
+            </div>
+
+            <div class="room-listing"></div>
+        </div>
+    </div>
+
+    <div class="login-copyright">
+        All rights reserved.
+        Copyright (2024) - masxidev.online (AmorgosRooms™) - <a class="login-copyright-github" href="https://www.github.com/Manos1Dev">Manos1Dev</a>
+    </div>
+
+    <script src="js/find-a-room.js"></script>
+</body>
+</html>

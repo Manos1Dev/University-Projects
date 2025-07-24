@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body class="admin-body">
+    <div class="index-main-img2 login-bar">
+        <div class="login-bar-fix">
+           <!-- <a href="#"><img src="/amorgos-rooms/media/photos/amorgos-logo.jpg" class="logo login-logo" alt="logo"></a> -->
+           <h1 class="login-logo">Amorgos Rooms</h1>
+        </div>
+        <div class="menu">
+           <div class="menu-fix">
+              <a href="/amorgos-rooms">
+                 <!-- Home -->
+                 <span class="menu menu-adjust">Home</span>
+              </a>
+              <a href="more">
+                 <span class="menu menu-adjust">MoreInformation</span>
+              </a>
+              <a href="find-a-room">
+                 <span class="menu menu-adjust">FindRoom</span>
+              </a>
+              <a href="create_page">
+                 <span class="menu menu-adjust">CreatePage</span>
+              </a>
+              <a href="contact">
+                 <span class="menu menu-adjust">Contact</span>
+              </a>
+           </div>
+           <div>
+           </div>
+        </div>
+     </div>
+    <div class="admin-container">
+        <h2 class="admin-h2">Edit Profile</h2>
+        <div class="admin-form-group">
+            <p class="username">Username: <span id="username-id"></span></p>
+         </div>
+        <form id="edit-profile-form">
+            <div class="admin-form-group">
+                <label class="admin-label" for="name">Name:</label>
+                <input class="admin-input" type="text" id="name" name="name"><span id="name-id"></span>
+            </div>
+            <div class="admin-form-group">
+                <label class="admin-label" for="surname">Surname:</label>
+                <input class="admin-input" type="text" id="surname" name="surname"><span id="surname-id"></span>
+            </div>
+            <div class="admin-form-group">
+                <label class="admin-label" for="business_name">Business Name:</label>
+                <input class="admin-input" type="text" id="business_name" name="business_name"><span id="business-name-id"></span>
+            </div>
+            <div class="admin-form-group">
+                <label class="admin-label" for="telephone">Telephone:</label>
+                <input class="admin-input" type="tel" id="telephone" name="telephone"><span id="tel-id"></span>
+            </div>
+            <div class="admin-form-group">
+                <label class="admin-label" for="business_email">Business Email:</label>
+                <input class="admin-input" type="email" id="business_email" name="business_email"><span id="email-id"></span>
+            </div>
+            <div class="admin-form-group">
+                <label class="admin-label" for="password">Password:</label>
+                <input class="admin-input" type="password" id="password" name="password">
+            </div>
+            <input class="admin-button" type="submit" value="Submit">
+        </form>
+    </div>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>

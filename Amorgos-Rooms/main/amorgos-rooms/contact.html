@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Contact Us - Amorgos Rooms</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="/amorgos-rooms/styles/style.css">
+
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+   </head>
+
+   <body class="contact-body">
+      <div class="index-main-img2 login-bar">
+         <div class="login-bar-fix">
+            <!-- <a href="#"><img src="/amorgos-rooms/media/photos/amorgos-logo.jpg" class="logo login-logo" alt="logo"></a> -->
+            <h1 class="login-logo">Amorgos Rooms</h1>
+         </div>
+         <div class="menu">
+            <div class="menu-fix">
+               <a href="/amorgos-rooms">
+                  <!-- Home -->
+                  <span class="menu menu-adjust">Home</span>
+               </a>
+               <a href="more">
+                  <span class="menu menu-adjust">MoreInformation</span>
+               </a>
+               <a href="find-a-room">
+                  <span class="menu menu-adjust">FindRoom</span>
+               </a>
+               <a href="create_page">
+                  <span class="menu menu-adjust">CreatePage</span>
+               </a>
+               <a href="contact">
+                  <span class="menu menu-adjust">Contact</span>
+               </a>
+            </div>
+            <div class="menu-login-signup menu-fix">
+               <a href="login">
+                  <span class="menu menu-adjust">Login</span>
+               </a>
+               <a href="sign-up">
+                  <span class="menu menu-adjust">Sign-Up</span>
+               </a>
+            </div>
+         </div>
+      </div>
+      <div class="contact-container">
+         <h1 class="contact-headtext">Contact Us</h1>
+         <form class="contact-form" id="contact-form-id">
+                  <label for="firstname" class="contact-label">First Name</label>
+                  <input type="text" name="firstname" class="contact-input" placeholder="Enter your firstname..." ><br>
+
+                  <label for="lastname" class="contact-label">Last Name</label>
+                  <input type="text" name="lastname" class="contact-input" placeholder="Enter your lastname..." ><br>
+
+                  <label for="email" class="contact-label">Email</label>
+                  <input type="email" name="email" class="contact-input" placeholder="Enter your e-mail..." ><br>
+
+                  <label for="phone" class="contact-label">Phone</label>
+                  <input type="tel" name="phone" class="contact-input" placeholder="Enter your telephone number..." ><br>
+
+                  <label for="rooms" class="contact-label">Number of Rooms</label>
+                  <input type="number" name="rooms" min="1" value="1" class="contact-input" ><br>
+
+                  <label for="adults" class="contact-label">Number of Adults</label>
+                  <input type="number" name="adults" min="1" value="2" class="contact-input" ><br>
+
+                  <label for="children" class="contact-label">Number of Children</label>
+                  <input type="number" name="children" min="0" value="0" class="contact-input" ><br>
+
+                  <label for="arrival" class="contact-label">Arrival Date</label>
+                  <input type="date" name="arrival" class="contact-input" id="contact-arrival-date" placeholder="Enter arrival date..." ><br>
+
+                  <label for="departure" class="contact-label">Departure Date</label>
+                  <input type="date" name="departure" class="contact-input" id="contact-departure-date" placeholder="Enter departure date..." ><br>
+
+                  <input type="checkbox" name="flexible" class="contact-inputcheckbox"> Flexible Dates
+                  <!-- <label for="flexible" class="contact-label">Flexible Dates</label><br> -->
+
+                  <br><br>
+                  <label for="pet" class="contact-label">Pet
+                     <select name="pet" class="contact-pet">
+                        <option value="no">No</option>
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                        <option value="other">Other</option>
+                     </select><br>
+                  </label>
+
+                  <br>
+                  <label for="comments" class="contact-label">Comments/Questions</label>
+                  <textarea id="comments" name="comments" rows="4" class="contact-input" placeholder="Please write here your comments or your questions." ></textarea><br>
+
+                  <input type="submit" value="Submit" class="contact-inputsubmit">
+            </form>
+      </div>
+
+      <div class="login-copyright">
+         All rights reserved.
+         Copyright (2024) - masxidev.online (AmorgosRooms™) - <a class="login-copyright-github" href="https://www.github.com/Manos1Dev">Manos1Dev</a>
+      </div>
+
+      <script src="js/contact.js"></script>
+   </body>
+</html>

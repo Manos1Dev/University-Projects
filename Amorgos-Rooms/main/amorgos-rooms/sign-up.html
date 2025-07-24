@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Sign-Up Form</title>
+      <link rel="stylesheet" href="/amorgos-rooms/styles/style.css">
+
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+   </head>
+
+   <body class="sign-up-body">
+      <div class="index-main-img2 login-bar">
+         <div class="login-bar-fix">
+            <!-- <a href="#"><img src="/amorgos-rooms/media/photos/amorgos-logo.jpg" class="logo login-logo" alt="logo"></a> -->
+            <h1 class="login-logo">Amorgos Rooms</h1>
+         </div>
+      </div>
+      <div class="sign-up-form">
+         <form>
+            <h3 class="sign-up-header">Create account</h3>
+
+            <div class="login-direct-links">
+               <a href="/amorgos-rooms" class="login-logo-home">Home</a>
+               <div> / </div>
+               <a href="login" class="login-logo-home">Login</a>
+               <div> / </div>
+               <a href="sign-up" class="login-logo-home">Sign Up</a>
+            </div>
+            
+            <label for="name" class="sign-up-label">Name of Manager</label>
+            <input name="name" type="text" placeholder="Give your name" class="sign-up-input" id="sign-up-name-of-manager" required>
+            
+            <label for="surname" class="sign-up-label">Surname of Manager</label>
+            <input name="surname" type="text" placeholder="Give your surname" class="sign-up-input" id="sign-up-surname-of-manager" required>
+
+            <label for="business-name" class="sign-up-label">Business Name</label>
+            <input name="business-name" type="text" placeholder="Give your business name" class="sign-up-input" id="sign-up-business-name" required>
+
+            <label for="telephone" class="sign-up-label">Telephone</label>
+            <input name="telephone" type="tel" placeholder="Give your telephone number" class="sign-up-input" id="sign-up-telephone" required>
+
+            <label for="business-email" class="sign-up-label">Business email</label>
+            <input name="business-email" type="email" placeholder="Give your business email" class="sign-up-input" id="sign-up-business-email" required>
+
+            <label for="username" class="sign-up-label">Username</label>
+            <input type="text" placeholder="Give your username" class="sign-up-input" id="sign-up-username" required>
+            
+            <label for="password" class="sign-up-label">Password</label>
+            <input name='password' type="password" placeholder="Give your password" class="sign-up-input" id="sign-up-password" required>
+
+            <label for="confirm-password" class="sign-up-label">Confirm Password</label>
+            <input name='confirm-password' type="password" placeholder="Confirm your password" class="sign-up-input" id="sign-up-confirm-password" required>
+
+            <br>
+
+            <input type="checkbox" required>
+            <span class="checkmark">I agree to the terms and conditions.</span>
+
+            <button class="sign-up-button">Sign Up</button>
+         </form>
+         <!-- <button onclick="window.location.href = 'index.html'" class="sign-up-go-back">Go back to home page</button> -->
+         <br><br><br><br>
+      </div>
+      <div class="login-copyright">
+         All rights reserved.
+         Copyright (2024) - masxidev.online (AmorgosRooms™) - <a class="login-copyright-github" href="https://www.github.com/Manos1Dev">Manos1Dev</a>
+      </div>
+
+      <script src="js/sign-up.js"></script>
+   </body>
+</html>
